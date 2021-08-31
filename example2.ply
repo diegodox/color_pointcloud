@@ -1,0 +1,24 @@
+ply
+format ascii 1.0
+comment test data
+element vertex 8
+property uchar r
+property uchar g
+property uchar b
+property float x
+property float y
+property float z
+element list 3
+property list uchar char vertex_id
+end_header
+100 10 1 0 0 0
+100 10 1 0 0 1
+100 10 1 0 1 1
+100 10 1 0 1 0
+100 10 1 1 0 0
+100 10 1 1 0 1
+100 10 1 1 1 1
+100 10 1 1 1 0
+1 3
+2 3 3
+3 3 3 3
